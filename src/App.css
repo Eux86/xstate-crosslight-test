@@ -1,38 +1,32 @@
-.App {
-  text-align: center;
+:root {
+  --circleDiameter: 30px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.greenCircle {
+  background-color: green;
+  border: 1px solid;
+  border-radius: var(--circleDiameter);
+  height: var(--circleDiameter);
+  width: var(--circleDiameter);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.yellowCircle {
+  background-color: yellow;
+  border: 1px solid;
+  border-radius: var(--circleDiameter);
+  height: var(--circleDiameter);
+  width: var(--circleDiameter);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.redCircle {
+  background-color: red;
+  border: 1px solid;
+  border-radius: var(--circleDiameter);
+  height: var(--circleDiameter);
+  width: var(--circleDiameter);
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.offCircle {
+  background-color: #bcbaba;
+  border: 1px solid;
+  border-radius: var(--circleDiameter);
+  height: var(--circleDiameter);
+  width: var(--circleDiameter);
 }
